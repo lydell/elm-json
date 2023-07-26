@@ -1,6 +1,6 @@
 {
   "name": "@lydell/elm-json",
-  "version": "0.2.13-0",
+  "version": "0.2.13-1",
   "description": "Deal with your elm.json",
   "author": "Simon Lydell",
   "license": "MIT",
@@ -20,7 +20,7 @@
   "optionalDependencies": {
     "@lydell/elm-json-darwin-arm64": "0.2.13-0",
     "@lydell/elm-json-darwin-x64": "0.2.13-0",
-    "@lydell/elm-json-linux-arm64": "0.2.13-0",
+    "@lydell/elm-json-linux-arm": "0.2.13-0",
     "@lydell/elm-json-linux-x64": "0.2.13-0",
     "@lydell/elm-json-win32-x64": "0.2.13-0"
   }
