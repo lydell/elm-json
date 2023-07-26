@@ -1,6 +1,6 @@
 {
-  "name": "@zwilias/elm-json-linux-x64",
-  "version": "0.2.13",
+  "name": "@lydell/elm-json-linux-x64",
+  "version": "0.2.13-0",
   "description": "The Linux 64-bit binary for elm-json.",
   "repository": "https://github.com/zwilias/elm-json",
   "license": "MIT",

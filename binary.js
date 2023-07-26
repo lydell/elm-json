@@ -8,7 +8,7 @@ module.exports = function () {
 
     var requested = `${os}-${arch}`;
     var current = `${process.platform}-${process.arch}`;
-    var subPackageName = `@zwilias/elm-json-${requested}`;
+    var subPackageName = `@lydell/elm-json-${requested}`;
 
     if (requested !== current) {
         console.error(
@@ -16,7 +16,7 @@ module.exports = function () {
         );
     } else if (requested === "linux-arm64") {
         // This binary is 32-bit but also works on 64-bit ARM.
-        subPackageName = "@zwilias/elm-json-linux-arm";
+        subPackageName = "@lydell/elm-json-linux-arm";
     }
 
     if (!(subPackageName in package.optionalDependencies)) {
@@ -75,7 +75,7 @@ ${message}
 
 NOTE: You can avoid npm entirely by downloading directly from:
 https://github.com/zwilias/elm-json/releases/tag/v${package.version}
-All this package does is distributing a file from there.
+All this package does is distribute a file from there.
 
 --------------------------------------------------------------------------------
     `.trim()

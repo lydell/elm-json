@@ -1,10 +1,10 @@
 {
-  "name": "elm-json",
-  "version": "0.2.13",
+  "name": "@lydell/elm-json",
+  "version": "0.2.13-0",
   "description": "Deal with your elm.json",
-  "author": "Ilias Van Peer",
+  "author": "Simon Lydell",
   "license": "MIT",
-  "repository": "zwilias/elm-json",
+  "repository": "lydell/elm-json",
   "main": "index.js",
   "scripts": {
     "install": "node index.js"
@@ -18,10 +18,10 @@
     "elm-json": "bin/elm-json"
   },
   "optionalDependencies": {
-    "@zwilias/elm-json-darwin-arm64": "0.2.13",
-    "@zwilias/elm-json-darwin-x64": "0.2.13",
-    "@zwilias/elm-json-linux-arm64": "0.2.13",
-    "@zwilias/elm-json-linux-x64": "0.2.13",
-    "@zwilias/elm-json-win32-x64": "0.2.13"
+    "@lydell/elm-json-darwin-arm64": "0.2.13-0",
+    "@lydell/elm-json-darwin-x64": "0.2.13-0",
+    "@lydell/elm-json-linux-arm64": "0.2.13-0",
+    "@lydell/elm-json-linux-x64": "0.2.13-0",
+    "@lydell/elm-json-win32-x64": "0.2.13-0"
   }
 }
